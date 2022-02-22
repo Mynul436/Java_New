@@ -12,6 +12,7 @@ Thread t=Thread.currentThread();
             System.out.println(i);
             try {
                 Thread.sleep(500);
+
             } catch (InterruptedException e) {
                 System.out.println("Main thread intrupted ");
             }
